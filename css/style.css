@@ -1,0 +1,224 @@
+.img-logo-header {
+  max-width: 100%;
+}
+.txt-name-profile {
+  color: #0070c0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.txt-rank-profile {
+  color: #0070c0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+.txt-sub-name-profile {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+i.star-color {
+  color: #fdab02;
+}
+.rsi {
+  width: 26px;
+  margin-left: 2px;
+}
+
+.box-ranking-margin {
+  margin-top: -2.2rem;
+}
+
+.icon-menu {
+  width: 100%;
+  max-width: 60px;
+  height: auto;
+  margin-bottom: 0.3rem;
+}
+.col-2.col-menu {
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.col-2.col-menu .txt-menu {
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 0;
+}
+.txt-title-slide {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.conatiner-web {
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+}
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.main-contents {
+  padding-top: 260px;
+}
+.txt-reward-name {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+.txt-activity-name{
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+.txt-activity-name-sub{
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.txt-activity-point{
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0070c0;
+}
+.txt-reward-remain {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ff0000;
+  margin-bottom: 0;
+}
+.txt-reward-val {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 0;
+}
+.txt-reward-point {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+.btn-reward {
+  background-color: #0070c0;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+table.table thead th{
+  font-weight: 700;
+}
+tfoot tr td {
+  color: #0070c0;
+}
+@media (max-width: 360px) {
+  .main-contents {
+    padding-top: 245px;
+  }
+  .btn-reward {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .col-2.col-menu .txt-menu {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .txt-name-profile {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .txt-rank-profile {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .txt-sub-name-profile {
+    font-size: 16px;
+  }
+  .box-ranking-margin {
+    margin-top: -2.5rem;
+  }
+  .rsi {
+    width: 30px;
+  }
+  .header-fixed {
+    -webkit-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.1);
+  }
+  .conatiner-web {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  }
+  .txt-reward-name {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+  }
+  .txt-activity-name{
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+  }
+  .txt-activity-name-sub{
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+  }
+  .txt-activity-point{
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #0070c0;
+  }
+  .txt-reward-remain {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff0000;
+    margin-bottom: 0;
+  }
+  .txt-reward-val {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 0;
+  }
+  .txt-reward-point {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+  }
+  .btn-reward {
+    font-size: 18px;
+  }
+}
